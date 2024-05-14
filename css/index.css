@@ -1,0 +1,11 @@
+.container {
+
+    background-color: black;
+}
+
+.container h1 {
+    padding: 1%;
+    padding-bottom: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
