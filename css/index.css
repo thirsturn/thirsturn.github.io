@@ -1,5 +1,4 @@
 .container {
-    margin-top: 1%;
     padding: 1%;
     background-color: black;
 }
@@ -8,23 +7,4 @@
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
-}
-
-.social_media ul {
-    margin-top: 1%;
-}
-
-.social_media ul li {
-    list-style: none;
-    display: inline;
-}
-
-.social_media img {
-    height: 2%;
-    width: 2%;
-}
-
-.social_media a {
-    margin: 2%;
-
 }
