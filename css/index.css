@@ -1,5 +1,68 @@
+.container1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+}
+
 .container1 h1 {
     font: 4em sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@keyframes menuitem {
+    from {
+        transform: translateY(200%);
+    }
+
+    to {
+        transform: translateY(30%);
+    }
+}
+
+
+@keyframes images {
+    from {
+        transform: translateX(-400%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.image {
+    animation: images 1s ease-in-out 0s 1 normal none;
+    /*
+    name - name of the animation
+    duration
+    iteration count - times of animation
+
+    */
+    margin-left: 3%;
+    float: left;
+}
+
+.menu {
+    animation: menuitem 2s ease-out 1s 1 normal none;
+    position: absolute;
+    right: 20%;
+
+}
+
+.menu h4 {
+    font: 2em sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.list a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
