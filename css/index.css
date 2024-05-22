@@ -1,71 +1,37 @@
-.container1 {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 2%;
-}
-
-.container1 h1 {
-    font: 4em sans-serif;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-@keyframes menuitem {
-    from {
-        transform: translateY(200%);
-    }
-
-    to {
-        transform: translateY(30%);
-    }
-}
-
-
-@keyframes images {
+/*Animations*/
+@keyframes header1 {
     from {
         transform: translateX(-400%);
     }
 
     to {
-        transform: translateX(0);
+        transform: translateX(2%);
     }
 }
 
-.image {
-    animation: images 1s ease-in-out 0s 1 normal none;
-    /*
-    name - name of the animation
-    duration
-    iteration count - times of animation
+@keyframes container1 {
+    100% {
+        opacity: 1;
+    }
 
-    */
-    margin-left: 3%;
-    float: left;
+    0% {
+        opacity: 0;
+    }
 }
 
-.menu {
-    animation: menuitem 2s ease-out 1s 1 normal none;
-    position: absolute;
-    right: 20%;
+.container1 {
+    padding: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    background-color: tomato;
+    animation-name: container1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 
 }
 
-.menu h4 {
-    font: 2em sans-serif;
+.container1 h1 {
+    animation: header1 2s ease-in 0s 1 normal none;
+    font: 4em sans-serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blue;
-    font-weight: bold;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
-}
-
-.list a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-body {
-    background-color: bisque;
 }
