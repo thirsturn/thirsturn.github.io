@@ -23,10 +23,10 @@
     padding: 5%;
     padding-bottom: 5%;
     padding-left: 2%;
-    background-color: yellow;
 }
 
 .container1 h1 {
+    color: tomato;
     animation: fade 3s ease-in 0s 1 normal none;
     font: 4em sans-serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,42 +39,30 @@
 }
 
 .container2 h3 {
-    animation-name: fade;
-    animation-duration: 7s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
     float: left;
     position: absolute;
     left: 20%;
     font: 300% sans-serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
-    color: rgb(5, 31, 65);
+    color: rgb(255, 136, 0);
 }
 
 .container2 ul {
-    animation-name: fade;
-    animation-duration: 7s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
     float: right;
     position: absolute;
     right: 20%;
-    padding-top: 1%;
+    top: auto;
 }
 
 .container2 a {
-    color: azure;
+    color: rgb(228, 178, 40);
     font: 150% sans-serif;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-    background-color: rgb(204, 95, 76);
+    background-color: rgb(15, 15, 13);
 }
 
 ul {
